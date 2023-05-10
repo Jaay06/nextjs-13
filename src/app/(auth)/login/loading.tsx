@@ -1,6 +1,7 @@
-import { FC } from "react";
+import { type } from "os";
+import { FC, useState } from "react";
 
-interface loadingProps {}
+type loadingProps = {};
 
 const loading: FC<loadingProps> = ({}) => {
   return <div>loading</div>;
